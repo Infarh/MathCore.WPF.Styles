@@ -1,4 +1,4 @@
-name: .NET Core
+name: Publish NuGet.org
 
 on:
   push:
@@ -11,27 +11,24 @@ jobs:
     name: Update package
 
     steps:
-    - name: Restore repository
-    - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@master
       
-    - name: Use .NET Core 3.1.301
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.1.301
-    
-    - name: Install dependencies
-      run: dotnet restore
-    
-    - name: Build
-      run: |
-        dotnet build MathCore.WPF.Styles/MathCore.WPF.Styles.csproj -c Release --no-restore
-        dotnet build Tests/MathCore.WPF.Styles.WPFTests/MathCore.WPF.Styles.WPFTests.csproj -c Release --no-restore
-      
-    - name: Run Test
-      run: dotnet test Tests/MathCore.WPF.Styles.WPFTests/MathCore.WPF.Styles.WPFTests.csproj --no-restore --verbosity normal
-      
-    - name: Packing
-      run: dotnet pack MathCore.WPF.Styles/MathCore.WPF.Styles.csproj --no-build -c Release -v q
-       
-    - name: Publishing
-      run: dotnet nuget push MathCore.WPF.Styles/bin/Release/*.nupkg -s https://api.nuget.org/v3/index.json -n --skip-duplicate -k ${{ secrets.NuGetApiKey }}
+      - name: Use .NET 3.1.301
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.301
+        
+      - name: Building
+        run: |
+          dotnet build MathCore.WPF.Styles\MathCore.WPF.Styles.csproj -c Release
+          dotnet build Tests\MathCore.WPF.Styles.Tests\MathCore.WPF.Styles.Tests.csproj -c Release
+          
+      - name: Testing
+        run: dotnet test Tests\MathCore.WPF.Styles.Tests\MathCore.WPF.Styles.Tests.csproj
+        
+      - name: Packing
+        run: dotnet pack MathCore.WPF.Styles\MathCore.WPF.Styles.csproj --no-build -c Release -v q
+        
+      - name: Publishing
+        run: dotnet nuget push MathCore.WPF.Styles\bin\Release\*.nupkg -k ${{ secrets.NuGetApiKey }} -n --skip-duplicate -s https://api.nuget.org/v3/index.json
