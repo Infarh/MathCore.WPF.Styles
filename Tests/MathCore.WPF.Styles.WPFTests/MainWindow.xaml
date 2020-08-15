@@ -7,13 +7,10 @@
         Title="MainWindow"
         Width="800" Height="450">
     <Grid>
-        <TextBox Text="123" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,25" Width="120">
-            <!--<TextBox.Style>
-                <Style TargetType="TextBox">
-                    <Setter Property="BorderThickness" Value="3"/>
-                    <Setter Property="BorderBrush" Value="Red"/>
-                </Style>
-            </TextBox.Style>-->
-        </TextBox>
+        <TextBox Text="" VerticalAlignment="Top" HorizontalAlignment="Left" 
+                 Margin="10,25" Width="120"
+                 Style="{StaticResource TaggedTextBoxStyle}"
+                 Tag="Введите имя:"/>
+        <TextBox VerticalAlignment="Top" Margin="5,70"/>
     </Grid>
 </Window>
