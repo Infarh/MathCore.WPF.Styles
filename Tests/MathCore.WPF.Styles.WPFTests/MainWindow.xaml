@@ -6,11 +6,15 @@
         xmlns:l="clr-namespace:MathCore.WPF.Styles.WPFTests"
         Title="MainWindow"
         Width="800" Height="450">
+    <Window.Resources>
+       
+    </Window.Resources>
     <Grid>
-        <TextBox Text="" VerticalAlignment="Top" HorizontalAlignment="Left" 
-                 Margin="10,25" Width="120"
-                 Style="{StaticResource TaggedTextBoxStyle}"
-                 Tag="Введите имя:"/>
+        <CheckBox VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,25"
+                  Content="Вы уверены?"
+                  Style="{StaticResource SwitcherCheckBoxStyle}"
+                  IsEnabled="True"
+                  IsChecked="False"/>
         <TextBox VerticalAlignment="Top" Margin="5,70"/>
     </Grid>
 </Window>
