@@ -1,0 +1,27 @@
+name: .NET Core
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: Testing
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Use .NET 3.1.301
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+        
+    - name: Install dependencies
+      run: dotnet restore
+      
+    - name: Build
+      run: |
+        dotnet build MathCore.WPF.Styles/MathCore.WPF.Styles.csproj -c Debug --no-restore
+        dotnet build Tests/MathCore.WPF.Styles.WPFTests/MathCore.WPF.Styles.WPFTests.csproj -c Debug --no-restore
+      
+    - name: Run Test
+      run: dotnet test Tests/MathCore.WPF.Styles.WPFTests/MathCore.WPF.Styles.WPFTests.csproj --no-restore --verbosity normal
