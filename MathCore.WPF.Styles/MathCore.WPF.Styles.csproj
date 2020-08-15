@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <PackageReleaseNotes>
-      Анимация перемещения заголовка у TagedTextBox
+      Стиль для CheckBox'а в виде переключателя SwitcherCheckBoxStyle
     </PackageReleaseNotes>
   </PropertyGroup>
 
