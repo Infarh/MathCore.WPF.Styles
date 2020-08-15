@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCore.WPF.Styles.WPFTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCore.WPF.Styles.Tests", "Tests\MathCore.WPF.Styles.Tests\MathCore.WPF.Styles.Tests.csproj", "{C57D36D6-E1E3-43F1-B093-9DBC082C9BEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCore.WPF.Styles.WPFTests.Packages", "Tests\MathCore.WPF.Styles.WPFTests.Packages\MathCore.WPF.Styles.WPFTests.Packages.csproj", "{B5751600-BA44-4C75-AECD-DF5E0C734FBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{C57D36D6-E1E3-43F1-B093-9DBC082C9BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C57D36D6-E1E3-43F1-B093-9DBC082C9BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C57D36D6-E1E3-43F1-B093-9DBC082C9BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5751600-BA44-4C75-AECD-DF5E0C734FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5751600-BA44-4C75-AECD-DF5E0C734FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5751600-BA44-4C75-AECD-DF5E0C734FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5751600-BA44-4C75-AECD-DF5E0C734FBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{47FAB8F9-B295-41F9-A998-C0FDF9FCFAF6} = {98A07331-2E61-45B3-BBB6-0B35F062A593}
 		{C57D36D6-E1E3-43F1-B093-9DBC082C9BEC} = {98A07331-2E61-45B3-BBB6-0B35F062A593}
+		{B5751600-BA44-4C75-AECD-DF5E0C734FBF} = {98A07331-2E61-45B3-BBB6-0B35F062A593}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1C0FF93-D65A-4195-9F89-AC3C1727AB9B}
