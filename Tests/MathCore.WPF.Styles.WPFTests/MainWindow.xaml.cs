@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MathCore.WPF.Styles.Tests
+namespace MathCore.WPF.Styles.WPFTests
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

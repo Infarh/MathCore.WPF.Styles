@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace MathCore.WPF.Styles.Tests
+namespace MathCore.WPF.Styles.WPFTests
 {
     /// <summary>
     /// Interaction logic for App.xaml
