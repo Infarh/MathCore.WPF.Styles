@@ -6,6 +6,10 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <!--<ItemGroup>
+    <PackageReference Include="MathCore.WPF.Styles" Version="0.0.1" />
+  </ItemGroup>-->
+
   <ItemGroup>
     <ProjectReference Include="..\..\MathCore.WPF.Styles\MathCore.WPF.Styles.csproj" />
   </ItemGroup>
