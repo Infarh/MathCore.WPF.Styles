@@ -55,7 +55,7 @@
                         <Storyboard>
                             <DoubleAnimation Storyboard.TargetName="DotTranslate"
                                                  Storyboard.TargetProperty="X"
-                                                 To="14" Duration="0:0:1"
+                                                 To="14" Duration="0:0:0.2"
                                                  EasingFunction="{StaticResource CubicEase_InOut}"/>
                             <ColorAnimation Storyboard.TargetName="Back"
                                             Storyboard.TargetProperty="Background.(SolidColorBrush.Color)"
