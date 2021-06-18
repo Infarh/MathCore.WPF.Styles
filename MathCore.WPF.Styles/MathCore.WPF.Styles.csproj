@@ -10,7 +10,7 @@
   <PropertyGroup>
     <Version>0.0.4</Version>
     <PackageReleaseNotes>
-      Поднимаем версию пбатформы до 5.0
+      Поднимаем версию платформы до 5.0
     </PackageReleaseNotes>
   </PropertyGroup>
 
