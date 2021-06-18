@@ -16,7 +16,7 @@
 
   <PropertyGroup>
     <Authors>Shmachilin P.A.</Authors>
-    <Description>Пакет содержит стили и шаблоны элементов управления WPF под .NETCore3.1</Description>
+    <Description>Пакет содержит стили и шаблоны элементов управления WPF под .NET5.0</Description>
     <Copyright>shmachilin@gmail.com</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Infarh/MathCore.WPF.Styles</PackageProjectUrl>
