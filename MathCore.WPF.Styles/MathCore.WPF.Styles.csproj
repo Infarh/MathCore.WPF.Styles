@@ -1,22 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <LangVersion>latest</LangVersion>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.0.3</Version>
+    <Version>0.0.4</Version>
     <PackageReleaseNotes>
-      Стиль для CheckBox'а в виде переключателя SwitcherCheckBoxStyle
+      Поднимаем версию платформы до 5.0
     </PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup>
     <Authors>Shmachilin P.A.</Authors>
-    <Description>Пакет содержит стили и шаблоны элементов управления WPF под .NETCore3.1</Description>
+    <Description>Пакет содержит стили и шаблоны элементов управления WPF под .NET5.0</Description>
     <Copyright>shmachilin@gmail.com</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Infarh/MathCore.WPF.Styles</PackageProjectUrl>

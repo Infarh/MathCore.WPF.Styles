@@ -15,6 +15,7 @@
                   Style="{StaticResource SwitcherCheckBoxStyle}"
                   IsEnabled="True"
                   IsChecked="False"/>
-        <TextBox VerticalAlignment="Top" Margin="5,70"/>
+        <TextBox VerticalAlignment="Top" Margin="5,70" Style="{StaticResource TaggedTextBoxStyle}"
+                 Tag="User name"/>
     </Grid>
 </Window>
