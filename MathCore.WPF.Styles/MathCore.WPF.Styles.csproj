@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.0.4</Version>
+    <Version>0.0.5</Version>
     <PackageReleaseNotes>
-      Поднимаем версию платформы до 5.0
+      Добавлены ресурсы кистей
     </PackageReleaseNotes>
   </PropertyGroup>
 

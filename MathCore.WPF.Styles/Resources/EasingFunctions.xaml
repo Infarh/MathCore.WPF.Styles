@@ -3,5 +3,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <CubicEase x:Key="CubicEase_InOut" EasingMode="EaseInOut" p:Freeze="true"/>
+    <CubicEase x:Key="CubicEase_Out" EasingMode="EaseOut" p:Freeze="true"/>
+    <CubicEase x:Key="CubicEase_In" EasingMode="EaseIn" p:Freeze="true"/>
 
 </ResourceDictionary>
