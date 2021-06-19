@@ -2,13 +2,19 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:l="clr-namespace:MathCore.WPF.Styles.WPFTests"
+             xmlns:styles="clr-namespace:MathCore.WPF.Styles;assembly=MathCore.WPF.Styles"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MathCore.WPF.Styles;component/Styles/CheckBoxes/SwitcherCheckBox.xaml"/>
                 <ResourceDictionary Source="pack://application:,,,/MathCore.WPF.Styles;component/Styles/TextBoxes/TaggedTextBox.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MathCore.WPF.Styles;component/Resources/EasingFunctions.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MathCore.WPF.Styles;component/Resources/Colors/Brushes.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
+        <!--<styles:AppStyles>
+
+        </styles:AppStyles>-->
     </Application.Resources>
 </Application>

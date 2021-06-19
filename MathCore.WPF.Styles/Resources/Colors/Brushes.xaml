@@ -6,11 +6,45 @@
     <SolidColorBrush x:Key="BlackBrush" Color="Black" p:Freeze="true"/>
     <SolidColorBrush x:Key="WhiteBrush" Color="White" p:Freeze="true"/>
 
+    <SolidColorBrush x:Key="WhiteSmokeBrush" Color="WhiteSmoke" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="LightGrayBrush" Color="LightGray" p:Freeze="true"/>
+    <SolidColorBrush x:Key="GrayBrush" Color="Gray" p:Freeze="true"/>
+    <SolidColorBrush x:Key="DarkGrayBrush" Color="DarkGray" p:Freeze="true"/>
+
     <SolidColorBrush x:Key="RedBrush" Color="Red" p:Freeze="true"/>
     <SolidColorBrush x:Key="GreenBrush" Color="Green" p:Freeze="true"/>
     <SolidColorBrush x:Key="BlueBrush" Color="Blue" p:Freeze="true"/>
 
+    <SolidColorBrush x:Key="LimeBrush" Color="Lime" p:Freeze="true"/>
     <SolidColorBrush x:Key="LightBlueBrush" Color="LightBlue" p:Freeze="true"/>
+    <SolidColorBrush x:Key="SkyBlueBrush" Color="SkyBlue" p:Freeze="true"/>
+    <SolidColorBrush x:Key="DeepSkyBlueBrush" Color="DeepSkyBlue" p:Freeze="true"/>
+    <SolidColorBrush x:Key="LightSkyBlueBrush" Color="LightSkyBlue" p:Freeze="true"/>
+    <SolidColorBrush x:Key="LightCyanBrush" Color="LightCyan" p:Freeze="true"/>
+    <SolidColorBrush x:Key="CyanBrush" Color="Cyan" p:Freeze="true"/>
+    <SolidColorBrush x:Key="DarkCyanBrush" Color="DarkCyan" p:Freeze="true"/>
     <SolidColorBrush x:Key="DarkBlueBrush" Color="DarkBlue" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="ChocolateBrush" Color="Chocolate" p:Freeze="true"/>
+    <SolidColorBrush x:Key="CoralBrush" Color="Coral" p:Freeze="true"/>
+    <SolidColorBrush x:Key="LightCoralBrush" Color="LightCoral" p:Freeze="true"/>
+    <SolidColorBrush x:Key="CrimsonBrush" Color="Crimson" p:Freeze="true"/>
+    <SolidColorBrush x:Key="OrangeBrush" Color="Orange" p:Freeze="true"/>
+    <SolidColorBrush x:Key="DarkOrangeBrush" Color="DarkOrange" p:Freeze="true"/>
+    <SolidColorBrush x:Key="OrangeRedBrush" Color="OrangeRed" p:Freeze="true"/>
+    <SolidColorBrush x:Key="GoldBrush" Color="Gold" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="DarkRedBrush" Color="DarkRed" p:Freeze="true"/>
+    <SolidColorBrush x:Key="DeepPinkBrush" Color="DeepPink" p:Freeze="true"/>
+    <SolidColorBrush x:Key="HotPinkBrush" Color="HotPink" p:Freeze="true"/>
+    <SolidColorBrush x:Key="PinkBrush" Color="Pink" p:Freeze="true"/>
+    <SolidColorBrush x:Key="MagentaBrush" Color="Magenta" p:Freeze="true"/>
+    <SolidColorBrush x:Key="DarkMagentaBrush" Color="DarkMagenta" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="YellowBrush" Color="Yellow" p:Freeze="true"/>
+    <SolidColorBrush x:Key="BlueVioletBrush" Color="BlueViolet" p:Freeze="true"/>
+    <SolidColorBrush x:Key="VioletBrush" Color="Violet" p:Freeze="true"/>
+    <SolidColorBrush x:Key="DarkVioletBrush" Color="DarkViolet" p:Freeze="true"/>
     
 </ResourceDictionary>
