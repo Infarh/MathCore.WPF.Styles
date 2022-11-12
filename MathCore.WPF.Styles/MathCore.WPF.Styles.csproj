@@ -1,8 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0-windows;net5.0-windows</TargetFrameworks>
+    <TargetFrameworks>net7.0-windows;net6.0-windows;net5.0-windows;netcoreapp3.1-windows;net4.8-windows;net4.7-windows;net4.6.1-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
@@ -21,10 +22,15 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Infarh/MathCore.WPF.Styles</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Infarh/MathCore.WPF.Styles</RepositoryUrl>
-    <PackageTags>WPF, Styles, Templates</PackageTags>
+    <PackageTags>WPF;Styles;Templates</PackageTags>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>MathCore.WPF.Styles.snk</AssemblyOriginatorKeyFile>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="System.Windows" />
+  </ItemGroup>
 
 </Project>

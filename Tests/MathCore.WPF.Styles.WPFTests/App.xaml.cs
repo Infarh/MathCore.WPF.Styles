@@ -1,6 +1,5 @@
-﻿namespace MathCore.WPF.Styles.WPFTests
+﻿namespace MathCore.WPF.Styles.WPFTests;
+
+public partial class App
 {
-    public partial class App
-    {
-    }
 }
